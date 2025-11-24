@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <copy file="C:\Users\Administrateur\Documents\BigDataLabs\hadoop_lab\target/hadoop_lab-1.0-SNAPSHOT-HadoopFileStatus.jar" tofile="C:\Users\Administrateur\Documents\BigDataLabs\hadoop_lab\target/HadoopFileStatus.jar" />
+    <copy file="C:\Users\Administrateur\Documents\BigDataLabs\hadoop_lab\target/hadoop_lab-1.0-SNAPSHOT-ReadHDFS.jar" tofile="C:\Users\Administrateur\Documents\BigDataLabs\hadoop_lab\target/ReadHDFS.jar" />
+    <copy file="C:\Users\Administrateur\Documents\BigDataLabs\hadoop_lab\target/hadoop_lab-1.0-SNAPSHOT-HDFSWrite.jar" tofile="C:\Users\Administrateur\Documents\BigDataLabs\hadoop_lab\target/HDFSWrite.jar" />
+    <delete file="C:\Users\Administrateur\Documents\BigDataLabs\hadoop_lab\target/hadoop_lab-1.0-SNAPSHOT-HadoopFileStatus.jar" />
+    <delete file="C:\Users\Administrateur\Documents\BigDataLabs\hadoop_lab\target/hadoop_lab-1.0-SNAPSHOT-ReadHDFS.jar" />
+    <delete file="C:\Users\Administrateur\Documents\BigDataLabs\hadoop_lab\target/hadoop_lab-1.0-SNAPSHOT-HDFSWrite.jar" />
+    <delete file="C:\Users\Administrateur\Documents\BigDataLabs\hadoop_lab\target/hadoop_lab-1.0-SNAPSHOT.jar" />
+  </target>
+</project>
